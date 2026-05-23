@@ -1,6 +1,9 @@
 # "MemSeqRec: A Cognitive-Attentive Sequential Recommender
 with ANN Re-Ranking for Music Streaming
 
+Video Presentation:
+https://www.youtube.com/watch?v=RtBZ0q41WwA
+
 1. [Environment](#environment)
 2. [Dataset](#dataset)
 3. [Data Preparation](#data-preparation)
