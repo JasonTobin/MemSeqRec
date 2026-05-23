@@ -1,15 +1,5 @@
-# "Beyond the past": Leveraging Audio and Human Memory for Sequential Music Recommendation
-
-This repository provides Python code to reproduce experiments from our paper:
-
-> Viet-Anh Tran, Bruno Sguerra, Gabriel Meseguer-Brocal, Lea Briand and Manuel
-> Moussallam. "Beyond the past": Leveraging Audio and Human Memory for
-> Sequential Music Recommendation. In: _Proceedings of the 19th ACM Conference on Recommender
-> Systems (RecSys 2025)_, September 2025.
-
----
-
-## Table of Contents
+# "MemSeqRec: A Cognitive-Attentive Sequential Recommender
+with ANN Re-Ranking for Music Streaming
 
 1. [Environment](#environment)
 2. [Dataset](#dataset)
@@ -54,7 +44,7 @@ covering 50,000 anonymized tracks with Audio and SVD multimodal embeddings.
 All files are in Parquet format.
 
 Download the tarball (`deezer-recsys25.tar.gz`) and place it in the repo root, or
-pass its path explicitly via `--tar` (see below).
+pass its path explicitly via `--tar`
 
 ---
 
@@ -63,6 +53,8 @@ pass its path explicitly via `--tar` (see below).
 Run the preparation script **once** before any training or evaluation.
 It makes two sequential passes through the tarball, filters users to those with at
 least 300 distinct sessions, and writes the processed files to `exp/data/`.
+
+Be prepared for this to take ~30GB of space
 
 ```bash
 # Default: reads ./deezer-recsys25.tar.gz, writes to exp/data/, min 300 sessions
