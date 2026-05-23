@@ -1,6 +1,8 @@
 # "MemSeqRec: A Cognitive-Attentive Sequential Recommender
 with ANN Re-Ranking for Music Streaming
 
+My paper can be found as MemSeqRec.pdf in this repository
+
 Video Presentation:
 https://www.youtube.com/watch?v=RtBZ0q41WwA
 
