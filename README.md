@@ -11,7 +11,7 @@ with ANN Re-Ranking for Music Streaming
 
 ## Environment
 
-Install the following dependencies (Python 3.9 recommended):
+Install the following dependencies:
 
 ```
 python      3.9.13
@@ -22,19 +22,6 @@ scipy       1.10.1
 pandas      1.5.3
 toolz       0.12.0
 ```
-
-TensorFlow 2.11 requires the legacy Keras backend. Set this environment variable before running any command:
-
-```bash
-# Linux / macOS
-export TF_USE_LEGACY_KERAS=1
-
-# Windows (PowerShell)
-$env:TF_USE_LEGACY_KERAS = "1"
-```
-
----
-
 ## Dataset
 
 The anonymized Deezer-RecSys25 dataset is freely available on
