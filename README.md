@@ -94,34 +94,7 @@ python -m au2actr eval --verbose -p configs/deezer/baselines/actr.json
 
 ---
 
-### ACTR-BPR
-
-```bash
-python -m au2actr train --verbose -p configs/deezer/baselines/actr_bpr.json
-python -m au2actr eval  --verbose -p configs/deezer/baselines/actr_bpr.json
-```
-
----
-
-### PISA
-
-```bash
-python -m au2actr train --verbose -p configs/deezer/baselines/pisa.json
-python -m au2actr eval  --verbose -p configs/deezer/baselines/pisa.json
-```
-
----
-
-### AU2ACTR (proposed model)
-
-```bash
-python -m au2actr train --verbose -p configs/deezer/au2actr.json
-python -m au2actr eval  --verbose -p configs/deezer/au2actr.json
-```
-
----
-
-### MemSeqRec
+### MemSeqRec (Proposed Model)
 
 ```bash
 python -m au2actr train --verbose -p configs/deezer/baselines/memseq.json
